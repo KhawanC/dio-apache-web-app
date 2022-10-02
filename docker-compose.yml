@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  apache:
+    image: kauacassiano/dio-web-apache-app
+    container_name: apache-app
+    ports:
+      - "80:80"
+
